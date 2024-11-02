@@ -331,25 +331,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1565352302}
     m_Modifications:
-    - target: {fileID: 370761448415433360, guid: ced5408a5bb48088793b2a689cd45f27, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 5644555801828412474, guid: ced5408a5bb48088793b2a689cd45f27, type: 3}
       propertyPath: m_Name
       value: lavaka 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5644555801828412474, guid: ced5408a5bb48088793b2a689cd45f27, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7105757330680548621, guid: ced5408a5bb48088793b2a689cd45f27, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7776620911389993289, guid: ced5408a5bb48088793b2a689cd45f27, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8757610514138869176, guid: ced5408a5bb48088793b2a689cd45f27, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1961,7 +1945,7 @@ Transform:
   m_GameObject: {fileID: 450666294}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.8, y: 3.43, z: 0.05117043}
+  m_LocalPosition: {x: -4.2, y: 3.43, z: 0.05117043}
   m_LocalScale: {x: -1.0950671, y: 9.834384, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2600,7 +2584,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -37.34328, y: -0.4000001, z: -10}
+  m_LocalPosition: {x: -37.21608, y: -0.4000001, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2874,16 +2858,12 @@ PrefabInstance:
     m_TransformParent: {fileID: 1070837096}
     m_Modifications:
     - target: {fileID: 1346090851594687006, guid: 14ac31894921aad9eb8479838852c21c, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.0031352
-      objectReference: {fileID: 0}
-    - target: {fileID: 1346090851594687006, guid: 14ac31894921aad9eb8479838852c21c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 20.3352
+      value: 19.65
       objectReference: {fileID: 0}
     - target: {fileID: 1346090851594687006, guid: 14ac31894921aad9eb8479838852c21c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.68
+      value: -0.53
       objectReference: {fileID: 0}
     - target: {fileID: 1346090851594687006, guid: 14ac31894921aad9eb8479838852c21c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2985,7 +2965,7 @@ GameObject:
   - component: {fileID: 837103496}
   - component: {fileID: 837103495}
   - component: {fileID: 837103497}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: layer4_tombale
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -3576,7 +3556,7 @@ GameObject:
   - component: {fileID: 1051517375}
   - component: {fileID: 1051517374}
   - component: {fileID: 1051517373}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: layer4_tombale_corps
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -3757,7 +3737,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.0104055405, y: -0.82112145}
@@ -3785,7 +3765,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9722fedc18e2af207b68abef82f71043, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpForce: 8
+  jumpForce: 10
   groundLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -3927,7 +3907,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 27efcf9d3b4267c58a826b3670b9749b, type: 2}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4116,7 +4096,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0
+      scalar: 0.5
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -4233,9 +4213,9 @@ ParticleSystem:
         m_NumAlphaKeys: 2
     startSize:
       serializedVersion: 2
-      minMaxState: 3
+      minMaxState: 0
       scalar: 0.1
-      minScalar: 0.01
+      minScalar: 1
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -4286,8 +4266,8 @@ ParticleSystem:
         m_RotationOrder: 4
     startSizeY:
       serializedVersion: 2
-      minMaxState: 3
-      scalar: 0.1
+      minMaxState: 0
+      scalar: 1
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -4339,8 +4319,8 @@ ParticleSystem:
         m_RotationOrder: 4
     startSizeZ:
       serializedVersion: 2
-      minMaxState: 3
-      scalar: 0.1
+      minMaxState: 0
+      scalar: 1
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -4392,7 +4372,7 @@ ParticleSystem:
         m_RotationOrder: 4
     startRotationX:
       serializedVersion: 2
-      minMaxState: 3
+      minMaxState: 0
       scalar: 0
       minScalar: 0
       maxCurve:
@@ -4445,7 +4425,7 @@ ParticleSystem:
         m_RotationOrder: 4
     startRotationY:
       serializedVersion: 2
-      minMaxState: 3
+      minMaxState: 0
       scalar: 0
       minScalar: 0
       maxCurve:
@@ -4498,8 +4478,8 @@ ParticleSystem:
         m_RotationOrder: 4
     startRotation:
       serializedVersion: 2
-      minMaxState: 3
-      scalar: 1.5707963
+      minMaxState: 0
+      scalar: 0
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -4558,7 +4538,7 @@ ParticleSystem:
     gravityModifier:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.5
+      scalar: 0.7
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -4619,7 +4599,7 @@ ParticleSystem:
     donutRadius: 0.2
     m_Position: {x: 0, y: 0, z: 0}
     m_Rotation: {x: 0, y: 0, z: 0}
-    m_Scale: {x: 30, y: 1, z: 1}
+    m_Scale: {x: 30, y: 20, z: 1}
     placementMode: 0
     m_MeshMaterialIndex: 0
     m_MeshNormalOffset: 0
@@ -4817,7 +4797,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 15
+      scalar: 10
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -5085,7 +5065,7 @@ ParticleSystem:
         m_RotationOrder: 4
     separateAxes: 0
   RotationModule:
-    enabled: 1
+    enabled: 0
     x:
       serializedVersion: 2
       minMaxState: 0
@@ -5441,9 +5421,9 @@ ParticleSystem:
     enabled: 1
     x:
       serializedVersion: 2
-      minMaxState: 3
-      scalar: -1
-      minScalar: 1
+      minMaxState: 0
+      scalar: 0.1
+      minScalar: 0
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -5494,9 +5474,9 @@ ParticleSystem:
         m_RotationOrder: 4
     y:
       serializedVersion: 2
-      minMaxState: 3
-      scalar: -2
-      minScalar: 2
+      minMaxState: 0
+      scalar: 0
+      minScalar: 0
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -5547,7 +5527,7 @@ ParticleSystem:
         m_RotationOrder: 4
     z:
       serializedVersion: 2
-      minMaxState: 3
+      minMaxState: 0
       scalar: 0
       minScalar: 0
       maxCurve:
@@ -6632,11 +6612,11 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
   NoiseModule:
-    enabled: 1
+    enabled: 0
     strength:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.25
+      scalar: 1
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -6689,7 +6669,7 @@ ParticleSystem:
     strengthY:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.25
+      scalar: 1
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -6742,7 +6722,7 @@ ParticleSystem:
     strengthZ:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0
+      scalar: 1
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -6792,8 +6772,8 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-    separateAxes: 1
-    frequency: 1
+    separateAxes: 0
+    frequency: 0.5
     damping: 1
     octaves: 1
     octaveMultiplier: 0.5
@@ -8712,7 +8692,7 @@ Transform:
   m_GameObject: {fileID: 1110253123}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 1.0624933, y: 9, z: 0.10000001}
+  m_LocalPosition: {x: 1.0624933, y: 6.7400002, z: 0.10000001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -9036,7 +9016,7 @@ Transform:
   m_GameObject: {fileID: 1205551997}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -37.34328, y: -0.4000001, z: -10}
+  m_LocalPosition: {x: -37.21608, y: -0.4000001, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -9157,14 +9137,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 434694359099003788, guid: 1f28a65f8a0d2a2ac9529ba390ba453c, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 620799279063943479, guid: 1f28a65f8a0d2a2ac9529ba390ba453c, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 886682240208305071, guid: 1f28a65f8a0d2a2ac9529ba390ba453c, type: 3}
       propertyPath: camera
       value: 
@@ -9221,25 +9193,13 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 2965722126529462941, guid: 1f28a65f8a0d2a2ac9529ba390ba453c, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 3405341349245907501, guid: 1f28a65f8a0d2a2ac9529ba390ba453c, type: 3}
       propertyPath: m_Size.x
       value: 24.79093
       objectReference: {fileID: 0}
-    - target: {fileID: 6656579520936793962, guid: 1f28a65f8a0d2a2ac9529ba390ba453c, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 8031290145029080837, guid: 1f28a65f8a0d2a2ac9529ba390ba453c, type: 3}
       propertyPath: m_Name
       value: Word (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8031290145029080837, guid: 1f28a65f8a0d2a2ac9529ba390ba453c, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8031290145029080837, guid: 1f28a65f8a0d2a2ac9529ba390ba453c, type: 3}
       propertyPath: m_TagString
@@ -9445,10 +9405,6 @@ PrefabInstance:
     - target: {fileID: 3143707945477706442, guid: 86e0c1051efa2cb34bc589e9c3b21c65, type: 3}
       propertyPath: m_Name
       value: ciel
-      objectReference: {fileID: 0}
-    - target: {fileID: 3143707945477706442, guid: 86e0c1051efa2cb34bc589e9c3b21c65, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5261913843694648962, guid: 86e0c1051efa2cb34bc589e9c3b21c65, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9827,7 +9783,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1529272536}
   - component: {fileID: 1529272537}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9987,10 +9943,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: tsilo (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 2107080344911641020, guid: 14ac31894921aad9eb8479838852c21c, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 5408787989808381912, guid: 14ac31894921aad9eb8479838852c21c, type: 3}
       propertyPath: m_SpriteTilingProperty.drawMode
       value: 2
@@ -10017,25 +9969,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1565352302}
     m_Modifications:
-    - target: {fileID: 370761448415433360, guid: ced5408a5bb48088793b2a689cd45f27, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 5644555801828412474, guid: ced5408a5bb48088793b2a689cd45f27, type: 3}
       propertyPath: m_Name
       value: lavaka 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5644555801828412474, guid: ced5408a5bb48088793b2a689cd45f27, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7105757330680548621, guid: ced5408a5bb48088793b2a689cd45f27, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7776620911389993289, guid: ced5408a5bb48088793b2a689cd45f27, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8757610514138869176, guid: ced5408a5bb48088793b2a689cd45f27, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10497,10 +10433,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: vergaros (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 6734573600340525155, guid: 75c7f059759abadd783fc483528152dd, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10874,10 +10806,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: vergaros
       objectReference: {fileID: 0}
-    - target: {fileID: 6734573600340525155, guid: 75c7f059759abadd783fc483528152dd, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10893,19 +10821,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1346090851594687006, guid: 14ac31894921aad9eb8479838852c21c, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.2080007
+      value: 0.83956426
       objectReference: {fileID: 0}
     - target: {fileID: 1346090851594687006, guid: 14ac31894921aad9eb8479838852c21c, type: 3}
       propertyPath: m_LocalScale.y
-      value: 2.3724782
+      value: 0.96785575
       objectReference: {fileID: 0}
     - target: {fileID: 1346090851594687006, guid: 14ac31894921aad9eb8479838852c21c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 69.58
+      value: 68.6972
       objectReference: {fileID: 0}
     - target: {fileID: 1346090851594687006, guid: 14ac31894921aad9eb8479838852c21c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.93
+      value: -3.7832
       objectReference: {fileID: 0}
     - target: {fileID: 1346090851594687006, guid: 14ac31894921aad9eb8479838852c21c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -10941,11 +10869,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1704940638139762346, guid: 14ac31894921aad9eb8479838852c21c, type: 3}
       propertyPath: m_SortingOrder
-      value: 3
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 2107080344911641020, guid: 14ac31894921aad9eb8479838852c21c, type: 3}
       propertyPath: m_Name
-      value: tsilo_mihetsika
+      value: tsilo
       objectReference: {fileID: 0}
     - target: {fileID: 6037496299328353696, guid: 14ac31894921aad9eb8479838852c21c, type: 3}
       propertyPath: m_Mass
@@ -11375,10 +11303,6 @@ PrefabInstance:
     - target: {fileID: 6734573600340525155, guid: 75c7f059759abadd783fc483528152dd, type: 3}
       propertyPath: m_Name
       value: vergaros (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6734573600340525155, guid: 75c7f059759abadd783fc483528152dd, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12088,11 +12012,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1078936643631311281, guid: 75c7f059759abadd783fc483528152dd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.17
+      value: -9.22
       objectReference: {fileID: 0}
     - target: {fileID: 1078936643631311281, guid: 75c7f059759abadd783fc483528152dd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.89
+      value: -0.76
       objectReference: {fileID: 0}
     - target: {fileID: 1078936643631311281, guid: 75c7f059759abadd783fc483528152dd, type: 3}
       propertyPath: m_LocalPosition.z
@@ -12129,10 +12053,6 @@ PrefabInstance:
     - target: {fileID: 6734573600340525155, guid: 75c7f059759abadd783fc483528152dd, type: 3}
       propertyPath: m_Name
       value: vergaros
-      objectReference: {fileID: 0}
-    - target: {fileID: 6734573600340525155, guid: 75c7f059759abadd783fc483528152dd, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
