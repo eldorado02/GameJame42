@@ -1,0 +1,655 @@
+fileFormatVersion: 2
+guid: bd8b84164750b105b96c4bcc39044adf
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PCComputer-SkulTheHeroSlayer-GrimReaper-ezgif.com-crop (1)_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 166
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 866004480b11bb673b4fb8587f9df975
+      internalID: 624391512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCComputer-SkulTheHeroSlayer-GrimReaper-ezgif.com-crop (1)_1
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 179
+        width: 73
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a26e863d66b50fd77861407a1733dfe0
+      internalID: -1485708122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCComputer-SkulTheHeroSlayer-GrimReaper-ezgif.com-crop (1)_2
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 179
+        width: 75
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23dd03a997e84e56ca817d2ec79d6550
+      internalID: -2092953661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCComputer-SkulTheHeroSlayer-GrimReaper-ezgif.com-crop (1)_3
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 215
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad439914af954858bcff020c385121b
+      internalID: -184643651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCComputer-SkulTheHeroSlayer-GrimReaper-ezgif.com-crop (1)_4
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 179
+        width: 71
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b5bc5234e4b09642be630b36d138508
+      internalID: 1566555676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCComputer-SkulTheHeroSlayer-GrimReaper-ezgif.com-crop (1)_5
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 179
+        width: 79
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c75ce7753ec6a849eb2f8d4b273bf45f
+      internalID: -1102722101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCComputer-SkulTheHeroSlayer-GrimReaper-ezgif.com-crop (1)_6
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 179
+        width: 74
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ddbb4528e41939c831fa0e808f3f86
+      internalID: 923302188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCComputer-SkulTheHeroSlayer-GrimReaper-ezgif.com-crop (1)_7
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 80
+        width: 95
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f6e22e0c8c2dbf5819f736a561bb49
+      internalID: -634717330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCComputer-SkulTheHeroSlayer-GrimReaper-ezgif.com-crop (1)_8
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 127
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 337fe75049ba78868bcebe7f9dd3eabb
+      internalID: -95078582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCComputer-SkulTheHeroSlayer-GrimReaper-ezgif.com-crop (1)_9
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 87
+        width: 73
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f28b994c5b551c1a8af334b0e959be7
+      internalID: 407260830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCComputer-SkulTheHeroSlayer-GrimReaper-ezgif.com-crop (1)_10
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 126
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c8d0abe651b9dd5d81f3167670d1d2c
+      internalID: -754378536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCComputer-SkulTheHeroSlayer-GrimReaper-ezgif.com-crop (1)_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 85
+        width: 74
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e5a5f25a9099fb28c1be6590425fa1
+      internalID: -2032563981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCComputer-SkulTheHeroSlayer-GrimReaper-ezgif.com-crop (1)_12
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 87
+        width: 84
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8db12a7e8a2f10096a1e20e93cb446d2
+      internalID: 32422909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCComputer-SkulTheHeroSlayer-GrimReaper-ezgif.com-crop (1)_13
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 87
+        width: 84
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c69efeadb24d4e540a4046ccc347153c
+      internalID: -58654093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCComputer-SkulTheHeroSlayer-GrimReaper-ezgif.com-crop (1)_14
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 85
+        width: 76
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b140566ed486750495cfd9e7ccb761a
+      internalID: 1564030826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCComputer-SkulTheHeroSlayer-GrimReaper-ezgif.com-crop (1)_15
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 114
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18c2ed540900f34f6ae8dd3ee1790cf7
+      internalID: -632948275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCComputer-SkulTheHeroSlayer-GrimReaper-ezgif.com-crop (1)_16
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 114
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3460ecbca24a9f7cd8eaa58cf38a953b
+      internalID: 1118934827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCComputer-SkulTheHeroSlayer-GrimReaper-ezgif.com-crop (1)_17
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 2
+        width: 95
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c5e1804d17cc2068f99ff1694df916
+      internalID: -721147463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCComputer-SkulTheHeroSlayer-GrimReaper-ezgif.com-crop (1)_18
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 33
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b23b9b9ec2b8baf0b30a692fe95ec6b
+      internalID: 1367023801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCComputer-SkulTheHeroSlayer-GrimReaper-ezgif.com-crop (1)_19
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 4
+        width: 94
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c73b284f0e1439bc1a8a992bcbe9c567
+      internalID: -322883003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCComputer-SkulTheHeroSlayer-GrimReaper-ezgif.com-crop (1)_20
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 4
+        width: 99
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85ad4a79d051966c1857ec9bab5b5fb2
+      internalID: -687003510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCComputer-SkulTheHeroSlayer-GrimReaper-ezgif.com-crop (1)_21
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2
+        width: 101
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68cd23a90b37d74138863ded60e4d085
+      internalID: -411532249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCComputer-SkulTheHeroSlayer-GrimReaper-ezgif.com-crop (1)_22
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 3
+        width: 103
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6f77d454b668cbaeb09e1ee50e815cd
+      internalID: 618173438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PCComputer-SkulTheHeroSlayer-GrimReaper-ezgif.com-crop (1)_23
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 4
+        width: 94
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fea29335f3978bdb937601c8dce7719
+      internalID: 1436478139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PCComputer-SkulTheHeroSlayer-GrimReaper-ezgif.com-crop (1)_0: 624391512
+      PCComputer-SkulTheHeroSlayer-GrimReaper-ezgif.com-crop (1)_1: -1485708122
+      PCComputer-SkulTheHeroSlayer-GrimReaper-ezgif.com-crop (1)_10: -754378536
+      PCComputer-SkulTheHeroSlayer-GrimReaper-ezgif.com-crop (1)_11: -2032563981
+      PCComputer-SkulTheHeroSlayer-GrimReaper-ezgif.com-crop (1)_12: 32422909
+      PCComputer-SkulTheHeroSlayer-GrimReaper-ezgif.com-crop (1)_13: -58654093
+      PCComputer-SkulTheHeroSlayer-GrimReaper-ezgif.com-crop (1)_14: 1564030826
+      PCComputer-SkulTheHeroSlayer-GrimReaper-ezgif.com-crop (1)_15: -632948275
+      PCComputer-SkulTheHeroSlayer-GrimReaper-ezgif.com-crop (1)_16: 1118934827
+      PCComputer-SkulTheHeroSlayer-GrimReaper-ezgif.com-crop (1)_17: -721147463
+      PCComputer-SkulTheHeroSlayer-GrimReaper-ezgif.com-crop (1)_18: 1367023801
+      PCComputer-SkulTheHeroSlayer-GrimReaper-ezgif.com-crop (1)_19: -322883003
+      PCComputer-SkulTheHeroSlayer-GrimReaper-ezgif.com-crop (1)_2: -2092953661
+      PCComputer-SkulTheHeroSlayer-GrimReaper-ezgif.com-crop (1)_20: -687003510
+      PCComputer-SkulTheHeroSlayer-GrimReaper-ezgif.com-crop (1)_21: -411532249
+      PCComputer-SkulTheHeroSlayer-GrimReaper-ezgif.com-crop (1)_22: 618173438
+      PCComputer-SkulTheHeroSlayer-GrimReaper-ezgif.com-crop (1)_23: 1436478139
+      PCComputer-SkulTheHeroSlayer-GrimReaper-ezgif.com-crop (1)_3: -184643651
+      PCComputer-SkulTheHeroSlayer-GrimReaper-ezgif.com-crop (1)_4: 1566555676
+      PCComputer-SkulTheHeroSlayer-GrimReaper-ezgif.com-crop (1)_5: -1102722101
+      PCComputer-SkulTheHeroSlayer-GrimReaper-ezgif.com-crop (1)_6: 923302188
+      PCComputer-SkulTheHeroSlayer-GrimReaper-ezgif.com-crop (1)_7: -634717330
+      PCComputer-SkulTheHeroSlayer-GrimReaper-ezgif.com-crop (1)_8: -95078582
+      PCComputer-SkulTheHeroSlayer-GrimReaper-ezgif.com-crop (1)_9: 407260830
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

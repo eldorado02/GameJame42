@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/logo42/logo42.unity
+    guid: 73977da6de0fda50da2e3cde5b2cb5c2
+  - enabled: 1
+    path: Assets/Scenes/logoGamenaka/logoGNunity.unity
+    guid: da758863bf2ebe1ec8af11752a9ac9f6
+  - enabled: 1
+    path: Assets/Scenes/logotelma/TelmaScene.unity
+    guid: f5dd67b138673dc96b982cbeb226e9a0
+  - enabled: 1
+    path: Assets/Scenes/Menuhome/HomeScene.unity
+    guid: 2ebeefc49aaa160578d621697ecc8527
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/win/WinScene.unity
+    guid: 371d05f7ca776d6a08a65be5432fd159
+  - enabled: 1
+    path: Assets/Scenes/Lose/LoseScene.unity
+    guid: 151f5df480f94b1c787ad699af8c0cac
+  m_configObjects: {}
