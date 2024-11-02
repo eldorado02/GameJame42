@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1346090851594687006}
   - component: {fileID: 1704940638139762346}
   - component: {fileID: 5408787989808381912}
-  - component: {fileID: 9062172558400810518}
+  - component: {fileID: 6037496299328353696}
   m_Layer: 0
   m_Name: tsilo
   m_TagString: Untagged
@@ -28,8 +28,8 @@ Transform:
   m_GameObject: {fileID: 2107080344911641020}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 11.38, y: -0.81, z: 0.05117043}
-  m_LocalScale: {x: 0.716474, y: 1.7188079, z: 1}
+  m_LocalPosition: {x: -37.7692, y: -1.6499, z: 0}
+  m_LocalScale: {x: 0.716474, y: 1.06078, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 42
   m_Sprite: {fileID: 21300000, guid: d4bf46bf7cfd86612beda5c068fe1471, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
@@ -131,15 +131,30 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4.439893, y: 0.6293692}
   m_EdgeRadius: 0
---- !u!114 &9062172558400810518
-MonoBehaviour:
+--- !u!50 &6037496299328353696
+Rigidbody2D:
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2107080344911641020}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 676322d25e877082a9f845d3ad8a7ebf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 10000
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 100
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4

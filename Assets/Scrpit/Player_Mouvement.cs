@@ -33,6 +33,7 @@ public class PlayerController : MonoBehaviour
         else
             player.flipX = true;
         Move();
+        Jump();
     }
 
     void Move()
@@ -56,6 +57,15 @@ public class PlayerController : MonoBehaviour
         if (rb.transform.position.y < -4)
         {
             SceneManager.LoadScene("LoseScene");
+        }
+    }
+
+    void Jump()
+    {
+        if ((Input.GetButtonDown("Jump") || Input.GetMouseButtonDown(1)) && isGrounded) // Vérifie si le joueur appuie sur le bouton de saut
+        {
+            rb.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse); // Applique une force pour sauter
+            isGrounded = false; // Le joueur n'est plus au sol après le saut
         }
     }
 

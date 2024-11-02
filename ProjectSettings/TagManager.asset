@@ -7,7 +7,6 @@ TagManager:
   - Ground
   - kollectible
   - fantome
-  - jumper
   layers:
   - Default
   - TransparentFX
