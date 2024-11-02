@@ -15,11 +15,11 @@ EditorBuildSettings:
     path: Assets/Scenes/logotelma/TelmaScene.unity
     guid: f5dd67b138673dc96b982cbeb226e9a0
   - enabled: 1
-    path: Assets/Scenes/Menuhome/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/Menuhome/HomeScene.unity
+    guid: 2ebeefc49aaa160578d621697ecc8527
   - enabled: 1
-    path: Assets/Scenes/pause/PauseUnity.unity
-    guid: a949786bd7d51b71abfafbd050b72cf2
+    path: Assets/Scenes/SampleScene.unity
+    guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
     path: Assets/Scenes/win/WinScene.unity
     guid: 371d05f7ca776d6a08a65be5432fd159
